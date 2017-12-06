@@ -1,0 +1,85 @@
+Common server and database Objects:
+==================================
+
+    * PostgreSQL provides many server and database objects
+    * Understand each object and its usage.
+
+
+Server Service:
+===============
+
+    * When we install a PostgreSQL instance, we will have a corresponding PostgreSQL server Service.
+    * Also known as PostgreSQL server.
+    * Different PostgreSQL servers on a single machine on different ports with different data sets.
+
+
+
+Database:
+==========
+
+    * A database is a containter for storing other objects such as table,view,functions,indexes etc.
+    * Can create any no. of databases.
+
+Table:
+======
+
+    * Table is used to store data.
+    * As many tables as you want on a database.
+    * Special feature called "Table inheritance".
+    * Child table can inherit from parent table.
+    * Query Child table and parent table data also shows up.
+
+Schema:
+=======
+
+    * Logical containter  of tables and other objects in a DB.
+    * Each PostgreSQL DB can have multiple Schema.
+    * Schema is a part of ANSI-SQL Standard.
+
+
+Tablespace:
+============
+    * A Tablespace is where PostgreSQL stores data.
+    * allows easy movement of data on physical location across drivers by using simple commands.
+    Default 2 tablespaces:
+        * pg_default => for storing user's data.
+        * pg_global =>  for storing system data.
+
+
+View:
+======
+    * A view is a virtual table that is able to simplify complex queries and apply security for a set of records.
+    * PostgreSQL provides you with updateable views.
+
+
+Function:
+=========
+
+    * A function is a reusable block of SQL code that returns a scalar value of a list of records.
+    * Functions can return composite objects.
+
+Operator:
+==========
+    * A symbolic Function.
+    * Can create custom Operators.
+
+Cast:
+=======
+
+    * Convert one data type into another data type.
+    * Casts are usually backed by functions to perform the conversion.
+    * Ovverride default casts by creating custom casts.
+
+Sequences:
+============
+    * Sequences are used to manage auto increment columns that are defined in a table as as serial column.
+
+Extension:
+==========
+
+    * Since 9.1.
+    * To wrap other units such types,casts,indexes and functions into a single unit.
+    * Make it easier to maintain.
+
+
+
