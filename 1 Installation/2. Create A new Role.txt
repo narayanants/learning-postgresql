@@ -21,9 +21,20 @@ Create a New Role:
 
 *   sudo -u postgres createuser --interactive
 
+To check PostgreSQL version:
+----------------------------
+
+    * SELECT version();
+
 Output:
 =======
 
     Enter name of role to add: Narayanan
     Shall the new role be a superuser? (y/n) y
+
+
+    Default Password:
+    =================
+
+    “What is the default password for the user postgres?” The answer is easy… there isn’t a default password. The default authentication mode for PostgreSQL is set to ident.
 
