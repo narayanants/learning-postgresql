@@ -1,0 +1,16 @@
+Install PostgreSQL
+------------------
+
+
+sudo apt-get install postgresql postgresql-contrib
+
+-contrib => package that adds some additional utilities and functionality:
+
+Description:
+------------
+
+
+By Default, PostgreSQL uses a concept called Roles for authentication adn authorization.
+
+It doesn't distinguish between users and groups and prefers the word "Role".
+
