@@ -1,0 +1,29 @@
+Create a New Role:
+=================
+
+* sudo -i -u postgres
+
+
+
+To Quit postgres console:
+--------------------------
+
+  \q
+
+Accessing a Postgres Prompt Without Switching Accounts:
+------------------------------------------------------
+
+* sudo -u postgres psql
+
+
+Create a New Role:
+-------------------
+
+*   sudo -u postgres createuser --interactive
+
+Output:
+=======
+
+    Enter name of role to add: Narayanan
+    Shall the new role be a superuser? (y/n) y
+
