@@ -6,4 +6,7 @@ Create a new Database:
     Role will attempt to connect to a database which is also called narayanan by default.
 
     * createdb narayanan
+
     * sudo -u postgres createdb narayanan
+
+    
