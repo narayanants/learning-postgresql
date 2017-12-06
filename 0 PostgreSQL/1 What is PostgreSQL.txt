@@ -1,0 +1,47 @@
+What is PostgreSQL:
+------------------
+
+* General Purpose Object-Relational Database Management System
+* FOSS
+* Berkley Computer Science Department, University of California
+* PostgreSQL License
+
+
+Features:
+=========
+
+    * User-defined types
+    * Table Inheritance
+    * Sophisiticated locking mechanism
+    * Foregin Key referential integrity
+    * Views, rules and subquery
+    * Nested Transactions
+    * Multi-version concurrency control
+    * Asynchronous Replication
+
+Latest Features:
+================
+
+    * Native Microsoft Window Server version
+    * Tablespaces
+    * Point-in-time Recovery
+
+
+Highlights:
+-----------
+
+    * First DB to implement MVCC
+    * Custom functions using Diff DB's
+    * Define own data types,index types, functional languages.
+
+Who are using PostgreSQL:
+========================
+
+    * Apple
+    * Red Hat
+    * Cisco
+    * Juniper Networks.
+
+
+
+
