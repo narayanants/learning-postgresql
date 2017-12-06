@@ -1,0 +1,28 @@
+ Learn SELECT statement to query a table:
+ ========================================
+
+
+    Options:
+    --------
+
+        * Select distinct rows by using DISTINCT operator.
+        * Filter rows by using WHERE clause.
+        * Sort rows by usingORDER BY clause.
+        * Select rows based on various operators such as BETWEEN, INand LIKE.
+        * Group rows into groups using GROUP BY clause
+        * Apply conditions for groups using HAVING clause.
+        * Join a table to other tables using INNER JOIN, LEFT JOIN, FULL OUTER JOIN, CROSS JOIN clauses.
+
+
+
+    Basic Select statement:
+    ======================
+
+        SELECT col_1, col_2 from table_name;
+
+        SELECT * FROM customer;
+
+        Not a good practice to use asterisk(*) to retrieve records.
+
+
+
