@@ -7,8 +7,8 @@
 
         * Select distinct rows by using DISTINCT operator.
         * Filter rows by using WHERE clause.
-        * Sort rows by usingORDER BY clause.
-        * Select rows based on various operators such as BETWEEN, INand LIKE.
+        * Sort rows by using ORDER BY clause.
+        * Select rows based on various operators such as BETWEEN, IN and LIKE.
         * Group rows into groups using GROUP BY clause
         * Apply conditions for groups using HAVING clause.
         * Join a table to other tables using INNER JOIN, LEFT JOIN, FULL OUTER JOIN, CROSS JOIN clauses.
