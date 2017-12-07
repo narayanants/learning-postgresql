@@ -1,0 +1,12 @@
+PostgreSQL Command:
+-------------------
+
+    sudo -i  -u postgresql
+
+    psql -u postgresql -h localhost
+
+    sudo -u postgresql createuser  --interactive
+
+    sudo -u postgresql createdb dvdrental
+
+    SELECT version();
